@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@layer components {
+    .classic-theme {
+        @apply bg-gray-900 border-t border-gray-800;
+        @apply text-white;
+        @apply hover:text-primary-400;
+    }
+}
