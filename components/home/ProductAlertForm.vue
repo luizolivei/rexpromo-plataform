@@ -125,10 +125,9 @@ const resetForm = () => {
         <div class="pt-2">
           <UButton
               type="submit"
-              color="primary"
               size="lg"
               :loading="isSubmitting"
-              class="w-full justify-center text-white"
+              class="w-full justify-center bg-primary-900 text-amber-50"
           >
             <template #leading>
               <UIcon name="i-heroicons-paper-airplane" class="w-5 h-5" />
